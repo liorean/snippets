@@ -1,0 +1,53 @@
+JavaScript has many possible hosts. Any of the following might be a valid hello world:
+
+Most REPLs and consoles:
+
+    "Hello, World!"
+
+Older browsers `javascript:` pseudo-protocol:
+
+    javascript:'Hello, World!'
+
+Netscape Navigator 2
+
+    mocha:'Hello, World!'
+
+SpiderMonkey JSShell, ChakraCore ch.exe, 
+
+    print`Hello, World!`
+
+Many other shells and consoles:
+
+    console.log`Hello, World!`
+
+In Windows Script Host and ChakraCore ch.exe
+
+    WScript.Echo('Hello, World!')
+
+
+In an HTML document since Netscape Navigator 2:
+
+    <script>document.write('Hello, World!')</script>
+
+As an alert box in a browser:
+
+    alert('Hello, World!')
+
+Allowing the user to specify who they are in a browser:
+
+    document.write('Hello, '+prompt('Who are you?','World')+'!')
+
+In ASP using JScript:
+
+    <%@  language="javascript" %>
+    <% 
+        Response.Write('Hello, World!')
+    %>
+
+Netscape LiveWire anno 1995 (SSJS):
+
+    <server>
+        write('Hello, World!')
+    </server>
+
+None of which even touch the W3C DOM!

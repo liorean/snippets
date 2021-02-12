@@ -1,0 +1,2 @@
+to and from: C = 5, F = 9
+Conversion: ( ( ( ( 40 + temp ) * to ) / from ) - 40 )
